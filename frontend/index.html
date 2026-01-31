@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="top-bar">
+        <h2>Task Manager</h2>
+        <button class="logout-btn" onclick="logout()">Logout</button>
+    </div>
+
+    <div class="input-group">
+        <input id="title" placeholder="Task Title">
+        <input id="description" placeholder="Description">
+    </div>
+
+    <button onclick="addTask()">Add Task</button>
+
+    <div class="filters">
+        <button onclick="setFilter('all')">All</button>
+        <button onclick="setFilter('pending')">Pending</button>
+        <button onclick="setFilter('done')">Done</button>
+    </div>
+
+    <ul id="taskList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
