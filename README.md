@@ -46,30 +46,10 @@ Flask
 Flask-CORS
 Flask-SQLAlchemy
 Database
-SQLite (for development & demo)
+SQLite 
+Project Structure
+<img width="370" height="460" alt="1" src="https://github.com/user-attachments/assets/d8c867bd-a445-4c10-8f94-b1e5f1bae752" />
 
-Deployment
-
-Render
-Gunicorn
-
-📂 Project Structure
-Todo/
-│
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── Procfile
-│   └── database.db
-│
-├── frontend/
-│   ├── login.html
-│   ├── register.html
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-└── README.md
 
 ⚙️ Setup Instructions (Local)
 1️⃣ Clone the Repository
