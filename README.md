@@ -47,6 +47,9 @@ Flask-CORS
 Flask-SQLAlchemy
 Database
 SQLite 
+
+
+
 Project Structure
 <img width="370" height="460" alt="1" src="https://github.com/user-attachments/assets/d8c867bd-a445-4c10-8f94-b1e5f1bae752" />
 
